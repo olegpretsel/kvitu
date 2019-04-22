@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>kvitkova lavka</title>
+</head>
+<body>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+        }
+        img{
+            width:100%;
+        }
+        header{
+        	padding-top: 30px;
+        	padding-bottom: 30px;
+        }
+        
+        nav {
+        	margin:0 auto;
+        	width: 100%;
+        }
+        nav ul{
+            width: 100%;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        nav li {
+        	list-style: none;
+        	display: inline-block;
+        }
+        nav li a {
+        	font-size: 20px;
+        	font-weight: bold;
+        	text-decoration: none;
+        	padding: 0 30px;
+        	color: black;
+        	text-shadow: 0 1px 0 white;
+        }
+        
+        nav li a:hover {
+        	color: #cccccc;
+        }
+        #assortiment{
+            text-align: center;
+        }
+        #assortiment h1{
+            font-size: 32px;
+        }
+        #assortiment h2{
+            font-size: 24px;
+        }
+        .one_product{
+            width: 32.33333%;
+            display: inline-block;
+        }
+        .one_product img{
+             display:block;
+             margin:0 auto;
+             width:90%;
+        }
+        .one_product p{
+            text-align:center;
+        }
+        #about-us{
+            padding:50px 30px;
+        }
+        #about-us .image-about-us{
+            width:350px;
+            margin:0 auto;
+        }
+        #form h3{
+            text-align:center;
+        }
+        #form input,#form textarea{
+            width:300px;
+            display:block;
+            clear: both;
+        }
+        form{
+            width:300px;
+            margin:0 auto;
+        }
+    </style>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Головна </a></li>
+                <li><a href="#about-us">Про нас</a></li>
+                <li><a href="#assortiment">Асортимент</a></li>
+                <li><a href="#contact-us">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <img src="image/slider.PNG" alt="slider"/>
+    </section>
+    
+    <section id="assortiment">
+        <div class="title-and-desc">
+            <h1>Квіткова лавка</h1>
+            <h2>Створюємо чарівні букети для Ваших коханих та найдорожчих</h2>
+        </div>
+        <div class="products">
+            <div class="one_product">
+                <img src="image/5.jpg"/>
+                <p>букет 1</p>
+            </div>
+            <div class="one_product">
+                <img src="image/5.jpg"/>
+                <p>букет 2</p>
+            </div>
+            <div class="one_product">
+                <img src="image/5.jpg"/>
+                <p>букет 3</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about-us">
+        <p>Кожному з нас в душі завжди хочеться свята. Вони, звичайно, є в протягом року: коли кожен, незалежно від статі і віку, мріє отримати подарунок до дня народження, або подарунок на Новий рік та Різдво, традицiйний подарунок на Великдень та iншi. </p>
+        <p>Подаруйте його вашим рідним і коханим вiд нашаго квiткового магазину в Умані ! Пошліть букет свіжих квітів - такий подарунок доречний завжди і для будь-якої людини. Мамі, тітці, бабусі можна подарувати гарну квітучу кімнатну рослину, наприклад, квітучу орхiдею у кашпо такого рожевого кольору, або будь-якого iншого. Вы можете вибрати той, що вам подобається. Або навіть цілий набір таких рослин - різних за кольором і виду! А зібрані в квіткову композицію кімнатних рослин професійним флористом-дизайнером, вони справлять незабутнє враження! Крім того, доглядаючи і поливаючи їх потім, вас будуть кожен раз згадувати там, в Уманi, зі щасливою посмішкою і самими добрими почуттями! </p>
+        <p> А в періоди між святами можна теж принести радість рідним людям в Уманi, пославши їм прекрасний букет квітів, або подарунок. А краще - і те, і інше! Кому, як не рідній людині відомий смак мами, тата, або бабусі, коханої дівчини. Ми постаралися представити найрізноманітніші букети, квіткові композиції, або такi популярнi зараз композиції з квітів і солодощів, квітів і ягід, домашні рослини так, щоб кожен міг вибрати те, що сподобається його родичам або коханим.        </p>
+        <div class="image-about-us">
+            <img src="image/6.jpg" alt=""/>
+        </div>
+    </section>
+    
+    <section id="form">
+        <h3>Форма зворотнього звязку</h3>
+        <form>
+            <input type="text" name="" placeholder="Ваше Імя"/>
+            <input type="tel" name="" placeholder="Ваш телефон"/>
+            <textarea type="textarea" name="" placeholder="Ваше повідомлення"></textarea>
+            <input type="submit" value="Відправити"/>
+        </form>
+    </section>
+    <!--<footer id="contact-us">
+        <div class="one-list">
+            <a href="https://www.instagram.com/flowers2018f/?hl=ru" target="_blank">
+                <img src="image/1.png" alt="insta"/>
+            </a>
+            <a href="https://www.instagram.com/flowers2018f/?hl=ru" target="_blank">
+                Insta
+            </a>
+        </div>
+        <div class="one-list">
+            <a href="" target="_blank">
+                <img src="insra"/>
+            </a>
+            <a href="" target="_blank">
+                Insta
+            </a>
+        </div>
+        <div class="one-list">
+            <a href="" target="_blank">
+                <img src="insra"/>
+            </a>
+            <a href="" target="_blank">
+                Insta
+            </a>
+        </div>
+    </footer>-->
+</body>
+</html>
