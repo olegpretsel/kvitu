@@ -1,0 +1,211 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+          
+        }
+        
+         section{
+            clear: both;
+        }
+        img {
+            width: 100%;
+        }
+        a{
+            text-decoration: none;
+        }
+        header {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        nav {
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        nav ul {
+            width: 100%;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            list-style: none;
+            display: inline-block;
+        }
+
+        nav li a {
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 0 30px;
+            color: black;
+            text-shadow: 0 1px 0 white;
+        }
+
+        nav li a:hover {
+            color: #cccccc;
+        }
+
+        #assortiment {
+            text-align: center;
+        }
+
+        #assortiment h1 {
+            font-size: 32px;
+        }
+
+        #assortiment h2 {
+            font-size: 24px;
+        }
+
+        .one_product {
+            width: 32.33333%;
+            display: inline-block;
+        }
+
+        .one_product img {
+            display: block;
+            margin: 0 auto;
+            width: 90%;
+        }
+
+        .one_product p {
+            text-align: center;
+        }
+
+        #about-us {
+            padding: 50px 30px;
+        }
+        .left-text-about-us{
+           width: 50%;
+           float: left;
+        }
+        .right-image-about-us{
+            width: 40%;
+            float: right;
+           
+        }
+        #about-us h3 {
+            text-align: center;
+        }
+       
+        #form h3 {
+            text-align: center;
+            padding: 30px;
+        }
+        #form input,
+        #form textarea {
+            width: 96%;
+            display: block;
+            clear: both;
+        }
+       
+        form {
+            width: 600px;
+            margin: 0 auto;
+        }
+        .left-form, .right-form{
+            float: left;
+            width: 50%;
+        }
+        #form input {
+            height: 40px;
+            margin-bottom: 7px;
+        }
+        #form textarea {
+            height: 94px;
+            margin-bottom: 7px;
+        }
+        
+        footer{
+            padding: 50px 30px;
+            clear: both;
+            text-align: center;
+        }
+        
+        footer img{
+            width: 40px;
+        }
+        footer h3{
+            text-align: center;
+            padding: 35px;
+        }
+        .one-list{
+            padding-bottom: 10px;
+            width:250px;
+            margin:0 auto
+        }
+        .my-phone{
+                position: relative;
+                top: -15px;
+                color: black;
+                text-decoration: none;
+        }
+        .price-b{
+            display:none;
+        }
+         .pop-up_fon{
+            position:fixed;
+            display:none;
+            top: 0px;
+            width:100%;
+            height:100%;
+            background: #000000b5;
+        }
+        .pop-up{
+            display:none;
+            z-index:1;
+            position:fixed;
+            top: 50px;
+            width: 50%;
+            left:25%;
+        }
+        .pop-up img{
+            display:block;
+            margin:0 auto;
+            width:100%;
+        }
+
+@media (max-width: 576px){
+     nav {
+           display:none;
+        }
+        .one_product {
+            width: 100%;
+        }
+        .left-text-about-us, .right-image-about-us{
+           width: 100%;
+           float: none;
+        }
+        .left-form, .right-form{
+            width: 100%;
+            float: none;
+        }
+        form {
+            width: 100%;
+            margin: 0 auto;
+        }
+        #form {
+            padding: 0 35px;
+        }
+       
+    
+}
+@media (min-width: 576px) and (max-width: 768px){
+     nav {
+           display:none;
+        }
+        .one_product {
+            width: 48%;
+        }
+        form {
+            width: 100%;
+            margin: 0 auto;
+        }
+}
+.active{
+    display:block;
+}
