@@ -13,10 +13,15 @@
         }
         a{
             text-decoration: none;
+            border:none;
+        }
+        a:hover{
+            text-decoration: none;
+            border:none;
         }
         header {
-            padding-top: 30px;
-            padding-bottom: 30px;
+            /* padding-top: 30px; */
+            /* padding-bottom: 30px; */
         }
 
         nav {
@@ -48,7 +53,10 @@
         nav li a:hover {
             color: #cccccc;
         }
-
+        .navbar-nav{
+            display: block;
+        }
+        
         #assortiment {
             text-align: center;
         }
@@ -64,8 +72,15 @@
         .one_product {
             width: 32.33333%;
             display: inline-block;
+            
         }
-
+        .one_product:hover{
+            cursor: pointer;
+            background: #f9f9f9;
+        }
+        .one_product:hover img{
+            opacity:0.9;
+        }
         .one_product img {
             display: block;
             margin: 0 auto;
@@ -116,7 +131,7 @@
             margin-bottom: 7px;
         }
         #form textarea {
-            height: 94px;
+            height: 87px;
             margin-bottom: 7px;
         }
         
@@ -140,9 +155,7 @@
         }
         .my-phone{
                 position: relative;
-                top: -15px;
                 color: black;
-                text-decoration: none;
         }
         .price-b{
             display:none;
@@ -196,7 +209,7 @@
 }
 @media (min-width: 576px) and (max-width: 768px){
      nav {
-           display:none;
+             display:none;
         }
         .one_product {
             width: 48%;
@@ -205,6 +218,11 @@
             width: 100%;
             margin: 0 auto;
         }
+}
+@media (max-width: 992px){
+ .navbar-nav{
+        display: flex;
+    }
 }
 .active{
     display:block;
